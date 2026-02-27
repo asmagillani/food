@@ -1,0 +1,94 @@
+:root {
+    --brand: #e21b70;
+    --brand-dark: #be165f;
+}
+
+body {
+    font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e1e1e;
+}
+
+.brand-text {
+    color: var(--brand);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.brand-text:hover,
+.brand-link,
+.brand-link:hover {
+    color: var(--brand);
+}
+
+.btn-brand {
+    background-color: var(--brand);
+    border-color: var(--brand);
+    color: #fff;
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: var(--brand-dark);
+    border-color: var(--brand-dark);
+    color: #fff;
+}
+
+.btn-outline-brand {
+    border: 1px solid var(--brand);
+    color: var(--brand);
+}
+
+.btn-outline-brand:hover {
+    background: var(--brand);
+    color: #fff;
+}
+
+.hero-section {
+    background: linear-gradient(120deg, #fff 0%, #fff5fa 100%);
+}
+
+.hero-image {
+    border-radius: 1rem;
+    max-height: 430px;
+    object-fit: cover;
+    box-shadow: 0 15px 35px rgba(226, 27, 112, 0.2);
+}
+
+.location-box input {
+    border-radius: 0.75rem;
+}
+
+.restaurant-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.restaurant-card img {
+    height: 170px;
+    object-fit: cover;
+}
+
+.feature-box {
+    background: #fff;
+    border-radius: 1rem;
+    border: 1px solid #f1f1f1;
+}
+
+.feature-icon {
+    font-size: 2rem;
+}
+
+.cta-section {
+    background: #fff5fa;
+}
+
+.py-lg-6 {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
